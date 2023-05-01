@@ -4,6 +4,7 @@ const Triel = () => {
 
 
     const  practice = event =>{
+        event.preventDefault()
         console.log(event.target.email.value)
     }
     return (
@@ -16,7 +17,7 @@ const Triel = () => {
                 <form onSubmit={practice}>
                 <label htmlFor="email">email</label>
                 <input type="email" name="email" id="" />
-                <input type="button" value="click" />
+                <input type="submit" value="click" />
            
 
 
