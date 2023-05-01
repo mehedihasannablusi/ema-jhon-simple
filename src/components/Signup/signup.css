@@ -1,0 +1,67 @@
+.form-container {
+    box-sizing: border-box;
+    width: 500px;
+    height: 800px;
+    margin: 50px auto;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.email {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(177, 117, 234);
+  
+    box-shadow: rgba(0,0,0,0.13) 0px 3px 6px ,rgba(0,0,0,0.23) 0px 3px 6px;
+    
+}
+
+.primary-button{
+    padding: 10px;
+    text-align: center;
+    height: 55px;
+    width: 420px;
+    font-size: 30px;
+    background: rgba(255, 153, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.primary-button:hover{
+ 
+   color: rgb(245, 245, 245);
+   background: rgba(255, 38, 0, 0.837);
+   transition: 500ms;
+  
+}
+.text{
+    margin-left: 30px;
+}
+.link{
+    color: rgb(0, 157, 255);
+    font-weight: bold;
+}
